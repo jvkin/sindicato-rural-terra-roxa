@@ -19,7 +19,11 @@
   
     
 .itens-cabecalho{
-    margin: 10px;
+    margin: 15px solid black;
+    
+    
+    
+    
 }
 .parcerias{
     display: flex;
