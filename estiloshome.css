@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     border: 0;
     padding: 0;
@@ -7,48 +7,56 @@
 }
 
 
-.cabecalho{
+.cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(to bottom, #698C46,#055902);
-
-    
+    background-image: linear-gradient(to bottom, #698C46, #055902);
 }
-.logo{
+
+.logo {
     margin: 10px;
 }
-.navegacao{
-    
-}
-  
-    
-.itens-cabecalho{
-    border-left: 2px solid black;
+
+.navegacao {}
+
+
+.itens-cabecalho {
+
     padding: 10px;
     color: rgba(255, 255, 255, 0.918);
     font-family: libre baskerville;
     font-size: 20px;
-    
-    
-    
-    
-    
+    text-decoration: none;
 }
-.principal{
+.botao-adm{
+    border-radius: 60px;
+    border: 2px black solid;
+    background: #F2F2F2;
+    font-style: #0D0D0D;
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: libre baskerville;
+    color: #0D0D0D;
+    text-decoration: none;
+}
+.principal {
     background: #F2F2F2;
 
 }
-.parcerias{
+
+.parcerias {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-   
 }
-.rodape{
+
+.alinhamento-rodape {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-
 }
