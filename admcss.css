@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+#titulo{
+    font-family: sans-serif;
+    color:  #055902;
+    margin-left: 7%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #698C46;
+    margin-left: 10%;
+    
+}
+fieldset{
+    border: 0;
+}
+main{
+    margin-left: 20%;
+    margin-top: 2%;
+    justify-content: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #055902;
+}
+input button{
+    border: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #055902;
+    display: block;
+}
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"]{
+   padding: 0.2em;
+   border: 1px solid #055902;
+   box-shadow: 2px 2px 2px #055902;
+}
+.campo input:focus{
+    background-color: #70fc93;
+}
+.botao{
+    font-size: 1.2em;
+    background-color: #70fc93 ;
+    margin-bottom: 1em;
+    border: 0;
+    color: #055902;
+    padding: 0.2 px 0.6px;
+    box-shadow: 2px 2px 2px #698C46;
+    text-shadow: 1px 1px 1px #055902;
+    }
