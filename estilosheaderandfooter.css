@@ -62,12 +62,6 @@ nav a:hover::before{
     text-decoration: none;
     
     
-<<<<<<< HEAD
-=======
-    
-    
-
->>>>>>> 35a13f390c65ab0c5a0c30cb8f01eaa0c71dd48e
 }
 
 .botao-adm {
@@ -101,9 +95,11 @@ nav a:hover::before{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-<<<<<<< HEAD
+
 }
-=======
-    background-image: linear-gradient(to bottom, #698C46, #055902);
-}
->>>>>>> 35a13f390c65ab0c5a0c30cb8f01eaa0c71dd48e
+html, body { 
+    height: 100%;
+ } 
+ main  {
+    height: 100%;
+ }

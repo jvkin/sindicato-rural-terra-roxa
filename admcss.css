@@ -40,10 +40,10 @@ fieldset .grupo .campo{
     float: left;
     margin-right: 1em;
 }
-.campo input[type="text"]{
+.campo input[type="text"][type="password"]{
    padding: 0.2em;
    border: 1px solid #055902;
-   box-shadow: 2px 2px 2px #055902;
+   
 }
 .campo input:focus{
     background-color: #70fc93;
@@ -58,3 +58,14 @@ fieldset .grupo .campo{
     box-shadow: 2px 2px 2px #698C46;
     text-shadow: 1px 1px 1px #055902;
     }
+#caixalogin{
+    position: absolute;
+    border: 2px solid black;
+    margin: 20px;
+    padding : 10px;
+    box-shadow: 2 2 2 black;
+    border-radius: 5%;
+    background: rgb(238, 234, 234);
+
+}
+
