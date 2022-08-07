@@ -89,6 +89,12 @@ nav a:hover::before{
     align-items: center;
     justify-content: space-around;
     background: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+.itens-parceria{
+    height: 100px;
+    
+
 }
 
 .alinhamento-rodape {
@@ -103,3 +109,4 @@ html, body {
  main  {
     height: 100%;
  }
+
